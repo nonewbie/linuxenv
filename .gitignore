@@ -1,0 +1,14 @@
+#this is annotation
+#ignore all the directory files in the ~/
+*
+
+#add the files I care about
+!.vimrc
+!note/
+!note/*
+#git_autocomplete
+#optimization
+!.gitignore
+!.profile
+!.bashrc
+!README.md
