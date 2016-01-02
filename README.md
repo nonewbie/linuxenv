@@ -7,7 +7,7 @@ Linux上开发时常用到的配置+笔记：
 
 ### 自己配置环境的步骤  
  - note/ 笔记
-
+ - git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
   
     
 ### 说明
