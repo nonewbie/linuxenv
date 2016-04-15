@@ -129,3 +129,4 @@ fi
 #add the path to use the openfst 
 export PATH=/home/xiantao/kaldi-trunk/tools/openfst/bin:$PATH
 #add the path to use the openfst 
+alias gg='git log --oneline --abbrev-commit --all --graph --decorate --color'
