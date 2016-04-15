@@ -122,6 +122,13 @@ func! RunGdb()
 	exec "!gcc -g -o %< %"
 	exec "!gdb ./%<"
 endfunc
+
+map <C-F7> :call RunPy()<CR>
+func! RunPy()
+    exec "w" 
+    exec "!python %"
+endfunc
+
 "
 " 创建tags 
 " 支持C＋＋的函数补全: 
